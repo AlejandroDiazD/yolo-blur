@@ -8,8 +8,8 @@ import os
 debug = True
 
 # Modify the following parameters if needed:
-input_video_name  = "input_video.mp4"
-output_video_name = "output_video.mp4"
+input_video_name  = "data/input_video.mp4"
+output_video_name = "data/output_video.mp4"
 yolo_model_name   = "yolov8n.pt"
 output_fps        = 30
 classes           = [41]    # 41 is for 'cup'
