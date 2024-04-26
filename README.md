@@ -16,7 +16,7 @@ Since Yolov8, Ultralytics has greatly facilitated our work for using it. It is a
 
 * In the __"defining the selected model" step__ we can choose between using one of the pretained models or using one of our custom models. In this example, we will use Yolov8n, that is one of the legacy pretained models and that is already in the working directory. If it were not, the model would be automatically downloaded.
 
-+ In the __"voilá (inference)" step__, we will use one of the simplest options, just specifying the classes to be detected and that the model must run the process on the cpu, but there are many other options that can be configured.
+* In the __"voilá (inference)" step__, we will use one of the simplest options, just specifying the classes to be detected and that the model must run the process on the cpu, but there are many other options that can be configured.
 
 Here is a snippet of code about how to perform a basic detection:
 ```python
@@ -29,12 +29,12 @@ results = model(source="input_image_path.jpg", device='cpu')
 About how to interpret the results, you can take a look about how is done in the _main.py_ file of this repository but, again, I strongly recommend to consult the official Ultralytics documentation.
 
 ## How to use this example
-__Good news! (:tada:)__
+__Good news! (🎉)__
 The code provided in this repository is completely ready for execution. The only thing you need to do is to run the _main.py_, for example, from your CLI with:
 ```
 python3 main.py
 ```
-__Bad news! (:cold_sweat:)__
+__Bad news! (😰)__
 For running this code, docker is used, so you may have a minimal knowledge about how to use docker.
  (Unless you don't mind installing and running Ultralytics module on your host).
 
@@ -44,7 +44,6 @@ That's why there is not a _requirements.txt_ file in this project. Everything we
 <div style="text-align:center">
     <img src="/readme_images/dev-meme.png" alt="Bad news for developers image" width="250"/>
 </div>
-
 
 Other options are installing Ultralytics module in your local host environment, installing it using a virtual environment, or follow any of the options that are explained in Ultralytics official documentation.
 
